@@ -1,0 +1,73 @@
+/*START*/
+p{
+    margin: -40px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url('/img/start.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header{
+    padding: 30px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+li{
+    margin-right: 45px;
+}
+a::after{
+    transition opacity: 0.2s linear;
+}
+a:hover {
+    color:deepskyblue;
+    text-decoration:underline;
+    transition: 0.2s linear;
+}
+hr{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition color: .3s linear;
+}
+.container{
+    padding-left: 600px;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 190px;
+    color: white;
+}
+
+.THE_WORLD{
+    padding-left: 50px;
+}
+
+/*article1*/
+
+.white_container{
+    color: #000;
+    padding-top: 500px;
+    margin: 0 auto;
+    justify-content: start;
+
+
+
+}
